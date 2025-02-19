@@ -1,0 +1,15 @@
+app_name: MySampleApp
+version: 2.0.0
+
+settings:
+  debug_mode: true
+  max_connections: 10
+
+database:
+  host: localhost
+  port: 5432
+  username: dbuser
+  password: secret
+
+# You can nest properties under any key using indentation, 
+# and comments start with a hash (#).
